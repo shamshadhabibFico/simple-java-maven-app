@@ -16,9 +16,9 @@ pipeline {
                 }
             }
         }
-         stage('Completed') {
+         stage('Branch-Completed') {
             steps {
-                echo 'completed'
+                echo 'Branch-completed'
             }
         }
     }
